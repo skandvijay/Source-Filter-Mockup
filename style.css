@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.mockup-container {
+  position: relative;
+  width: 1280px; /* based on image size */
+  height: 768px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Functional dropdown overlay */
+.source-dropdown {
+  position: absolute;
+  top: 310px; /* Adjust this based on visual alignment */
+  left: 460px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  z-index: 10;
+}
