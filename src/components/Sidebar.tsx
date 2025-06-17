@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
   ];
 
   return (
-    <div className="w-72 bg-blue-900 text-white flex flex-col h-full">
+    <div className="w-72 bg-blue-900 text-white flex flex-col h-screen">
       {/* Header */}
       <div className="p-6 border-b border-blue-800">
         <div className="flex items-center space-x-3">
